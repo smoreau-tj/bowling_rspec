@@ -34,8 +34,14 @@ describe "Bowling" do
             expect(subject.score).to eq(15)
         end
 
-
+        # it "bowls a perfect game" do
+        #     20.times do
+        #         subject.roll(10)
+        #     end
+        #     expect(subject.score).to eq(300)
+        # end
     end
+
 
 
 
