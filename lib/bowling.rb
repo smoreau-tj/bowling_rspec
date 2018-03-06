@@ -1,3 +1,4 @@
+require 'pry'
 class Bowling
 
  def initialize
@@ -10,9 +11,9 @@ def roll(pin)
 end
 
 def score
-    #@rolls.reduce(:+)
+    binding.pry
     score = 0
-    bowls = 0
+    bowls = 1
     if(@rolls.size <= 1)
         score = 0
     else
